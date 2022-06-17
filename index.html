@@ -346,22 +346,26 @@
                         <div class="d-flex OR mb-3">
                             OR
                         </div>
-                        <form class="">
+                        <form class="contact__form" action="http://127.0.0.1:8000/send-grid-email" method="post" novalidate>
                             <div class="mb-3">
-                                <label for="exampleFormControlInput1" class="form-label text-dark">Name</label>
-                                <input type="text" class="form-control p-3 border-0 bg-white" id="exampleFormControlInput1" placeholder="Adesua">
+                                <label for="name" class="form-label text-dark">Name</label>
+                                <input type="text" name="name" class="form-control p-3 border-0 bg-white" id="name" placeholder="Adesua"/>
+                                <div class="small text-danger error_message"></div>
                             </div>
 
                             <div class="mb-3">
-                                <label for="exampleFormControlInput2" class="form-label text-dark">Email address</label>
-                                <input type="email" class="form-control p-3 border-0 bg-white" id="exampleFormControlInput2" placeholder="hi@adeusa.com">
+                                <label for="from_email" class="form-label text-dark">Email address</label>
+                                <input type="email" name="from_email" class="form-control p-3 border-0 bg-white" id="from_email" placeholder="hi@adeusa.com"/>
+                                <div class="small text-danger error_message"></div>
                             </div>
                             <div class="mb-3">
-                                <label for="exampleFormControlTextarea1" class="form-label text-dark">Message</label>
-                                <textarea class="form-control border-0 bg-white" draggable="false" id="exampleFormControlTextarea1" rows="3" placeholder="Hi Adesua, I want to revamp my CV"></textarea>
+                                <label for="content" class="form-label text-dark">Message</label>
+                                <textarea class="form-control border-0 bg-white" name="content" draggable="false" id="content" rows="3" placeholder="Hi Adesua, I want to revamp my CV"></textarea>
+                                <div class="small text-danger error_message"></div>
                             </div>
-                            <!-- Submit button -->
-                            <button type="submit" class="btn btn-success btn-block my-4">Send a Message</button>
+
+                            <div class="message_sent text-success" style="display: none;">Thank you for reaching out😊. I will get back to you ASAP!!!</div>                            <!-- Submit button -->
+                            <button type="submit" class="btn btn-success btn-block my-4 contact__btn">Send a Message</button>
                         </form>
                     </div>
                 </div>
@@ -477,6 +481,7 @@
 
         <script type="application/javascript" src="js/bootstrap.js"></script>
         <script type="application/javascript" src="js/main.js"></script>
+        <script type="application/javascript" src="js/scripts.js"></script>
         <script type="application/javascript" src="js/swiffy-slider.js"></script>
         <!--        <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.5.3/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>-->
 
