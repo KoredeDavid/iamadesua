@@ -3,7 +3,7 @@ var contactForm = document.querySelector('.contact__form')
 var contactEndPoint = contactForm.action
 const isVisible = "d-block";
 
-
+console.log(contactEndPoint)
 contactForm.addEventListener('submit', function (e){
         e.preventDefault()
 
