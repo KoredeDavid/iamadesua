@@ -1,4 +1,4 @@
-window.addEventListener("DOMContentLoaded",  function (event) {
+window.addEventListener("DOMContentLoaded", async function (event) {
 
     const navBarTogglers = document.querySelectorAll('.toggle-navbar')
     const navBarModal = document.querySelector('#navbarModal')
