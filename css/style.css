@@ -2,6 +2,12 @@
     font-family: "Cormorant", serif;
 }
 
+@media (max-width: 767px) {
+    .container-sm, .container {
+        max-width: 700px;
+    }
+}
+
 header{
     background-color: #f3ecdf;
 }
@@ -41,8 +47,6 @@ nav{
 }
 
 /*Nav Bar*/
-
-
 .navbar-modal{
     background: #f3ecdf !important
 }
@@ -349,4 +353,9 @@ nav{
 }
 
 /* End Gallery Section */
+
+/* Start Footer Section */
+
+
+/* End Footer Section */
 
