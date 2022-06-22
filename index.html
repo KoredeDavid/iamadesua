@@ -6,18 +6,18 @@
 
         <title>Iamadesua</title>
 
+        <!-- Font Awesome -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" rel="stylesheet"/>
         <!-- Bootstrap -->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
-        <!-- Bootstrap -->
-        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap.min.css" integrity="sha512-Ez0cGzNzHR1tYAv56860NLspgUGuQw16GiOOp/I2LuTmpSK9xDXlgJz3XN4cnpXWDmkNBKXR/VDMTCnAaEooxA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <!-- MDB -->
         <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.0.0/mdb.min.css" rel="stylesheet"/>
         <!-- Google Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&display=swap" rel="stylesheet">
         <!-- Swiffy Slider -->
-        <!--        <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.5.3/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">-->
+        <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.5.3/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">
 
-        <link rel="stylesheet" href="css/swiffy-slider.css">
+        <!-- Main CSS -->
         <link rel="stylesheet" href="css/style.css">
 
 
@@ -26,6 +26,8 @@
     <body>
 
         <!-- Navbar -->
+
+        <!-- Modal Navbar -->
         <div class="modal navbar-modal-animation" id="navbarModal" tabindex="-1" aria-labelledby="navbarModalLabel" >
             <div class="modal-dialog modal-fullscreen">
                 <div class="modal-content navbar-modal">
@@ -53,6 +55,7 @@
                 </div>
             </div>
         </div>
+        <!-- Modal Navbar End -->
 
         <nav class="position-absolute w-100" style="z-index: 12;">
             <div class="container glassmorphism pt-2 pt-sm-4">
@@ -65,7 +68,7 @@
                     <div class="collapse navbar-collapse w-100 position-absolute" id="navbarSupportedContent" >
                         <ul class="navbar-nav mx-auto">
                             <li class="nav-item me-3 me-md-5 toggle-navbar" data-target="about">
-                                <a class="nav-link active position-relative px-0" aria-current="page" href="#about">About <span class="position-absolute translate-middle p-1 bg-success rounded-circle"></span></a>
+                                <a class="nav-link active position-relative px-0" aria-current="page" href="#about">About <span class="d-none position-absolute translate-middle p-1 bg-success rounded-circle"></span></a>
                             </li>
                             <li class="nav-item me-3 me-md-5 toggle-navbar" data-target="skills">
                                 <a class="nav-link px-0 active" href="#skills">Skills</a>
@@ -83,6 +86,7 @@
                 </div>
             </div>
         </nav>
+
         <!-- Navbar End-->
 
         <!-- Header Start -->
@@ -101,9 +105,9 @@
                         </p>
                         <a class="btn btn-outline-success rounded-pill mt-4 mt-md-5 contact-caret" href="#contact" type="submit">Contact <i class="fa-solid fa-caret-right"></i></a>
                         <div class="socials mt-4 mt-md-5">
-                            <i class="fa-brands fa-linkedin-in"></i>
-                            <i class="fa-brands fa-facebook-f"></i>
-                            <i class="fa-regular fa-envelope"></i>
+                            <a href="https://www.linkedin.com/in/adesua-iyoyojie-5849b3105" target="_blank" class="fa-brands fa-linkedin-in text-dark"></a>
+                            <a href="https://web.facebook.com/iadesua" target="_blank" class="fa-brands fa-facebook-f text-dark"></a>
+                            <a href="mailto:adesuaomome@gmail.com" target="_blank" class="fa-regular fa-envelope text-dark"></a>
                         </div>
 
                         <a href="#skills" class="scroll-down mt-4 d-block text-decoration-none text-dark" style="height: 3rem">
@@ -123,35 +127,35 @@
 
                         <!-- Float Skill Card Start -->
                         <div class="col-3 position-absolute d-flex align-items-center justify-content-center shadow p-0 d-none d-lg-block" style="top:1rem; right:1rem; z-index: 6">
-                            <div class="m-0 p-0 text-center ">
-                                <p class="fw-bolder m-0">Course</p>
-                                <p class="m-0">This iswhat1</p>
+                            <div class="m-0 p-1 text-center ">
+                                <p class="fw-bold m-0">🎉 </p>
+                                <p class="m-0 fw-bolder fs-6">30,000+ <i style="color: #3b5998" class="fa-brands fa-facebook"></i></p>
                             </div>
                         </div>
                         <div class="col-3 position-absolute d-flex align-items-center justify-content-center shadow p-0 d-none d-lg-block" style="bottom:2rem; left:1rem; z-index: 6">
                             <div class="m-0 p-0 text-center">
-                                <p class="fw-bolder m-0">Course</p>
-                                <p class="m-0">This iswhat2</p>
+                                <p class="fw-bolder m-0">Talent</p>
+                                <p class="m-0 fw-bold">Acquisition 💼</p>
                             </div>
                         </div>
-                        <div class="col-3 position-absolute d-flex align-items-center justify-content-center shadow p-0 d-none d-lg-block" style="top:2rem; left:1rem; z-index: 6">
-                            <div class="m-0 p-0 text-center">
-                                <p class="fw-bolder m-0">Course</p>
-                                <p class="m-0">This iswhat3</p>
+                        <div class="col-4 position-absolute d-flex align-items-center justify-content-center shadow p-0 d-none d-lg-block" style="top:2rem; left:0rem; z-index: 6">
+                            <div class="m-0 p-1 text-center">
+                                <p class="m-0"> 🤵</p>
+                                <p class="fw-bolder m-0 fs-5">Human Resource</p>
                             </div>
                         </div>
                         <!-- Float Skill Card Start -->
 
                         <!--Start Animation-->
                         <div class="rounded-circle border parent-rotate p-4 position-relative rotate-360-right d-lg-none">
-                            <i class="fa-brands fa-facebook-f shadow d-flex align-items-center justify-content-center rounded-circle position-absolute skill-rotate skill-rotate-from-up rotate-360-left"></i>
-                            <i class="fa-brands fa-facebook-f shadow d-flex align-items-center justify-content-center rounded-circle position-absolute skill-rotate skill-rotate-from-down rotate-360-left"></i>
+                            <i class="fa-solid fa-cubes-stacked shadow d-flex align-items-center justify-content-center rounded-circle position-absolute skill-rotate skill-rotate-from-up rotate-360-left"></i>
+                            <i class="fa-solid fa-person-chalkboard shadow d-flex align-items-center justify-content-center rounded-circle position-absolute skill-rotate skill-rotate-from-down rotate-360-left"></i>
                             <div class="rounded-circle border h-100 w-100 p-4 position-relative rotate-360-left rotate-speed-double">
-                                <i class="fa-brands fa-facebook-f shadow d-flex align-items-center justify-content-center rounded-circle position-absolute skill-rotate skill-rotate-from-right rotate-360-right"></i>
-                                <i class="fa-brands fa-facebook-f shadow d-flex align-items-center justify-content-center rounded-circle position-absolute skill-rotate skill-rotate-from-left rotate-360-right"></i>
+                                <i class="fa-solid fa-user-tie shadow d-flex align-items-center justify-content-center rounded-circle position-absolute skill-rotate skill-rotate-from-right rotate-360-right"></i>
+                                <i class="fa-solid fa-briefcase shadow d-flex align-items-center justify-content-center rounded-circle position-absolute skill-rotate skill-rotate-from-left rotate-360-right"></i>
                                 <div class="rounded-circle border h-100 w-100 position-relative d-flex align-items-center justify-content-center rotate-360-right rotate-speed-double">
-                                    <i class="fa-brands fa-facebook-f shadow d-flex align-items-center justify-content-center rounded-circle position-absolute skill-rotate skill-rotate-from-top-right rotate-360-left"></i>
-                                    <i class="fa-brands fa-facebook-f shadow d-flex align-items-center justify-content-center rounded-circle position-absolute skill-rotate skill-rotate-from-bottom-left rotate-360-left"></i>
+                                    <i class="fa-solid fa-file-lines shadow d-flex align-items-center justify-content-center rounded-circle position-absolute skill-rotate skill-rotate-from-top-right rotate-360-left"></i>
+                                    <i class="fa-brands fa-linkedin-in shadow d-flex align-items-center justify-content-center rounded-circle position-absolute skill-rotate skill-rotate-from-bottom-left rotate-360-left"></i>
                                     <h1 class="text-center text-success fst-italic fw-bold rotate-360-left">Iamadesua</h1>
                                 </div>
                             </div>
@@ -176,7 +180,7 @@
                 <div class="row justify-content-between mx-0 mx-md-3 mx-lg-5">
                     <div class="col-sm-6 col-lg-4 skills-card mb-md-2 glassmorphism d-flex align-items-center">
                         <div class="d-flex position-relative">
-                            <i class="fa-brands fa-facebook-f d-flex align-items-center justify-content-center glassmorphism rounded-circle position-absolute"></i>
+                            <i class="fa-solid fa-cubes-stacked d-flex align-items-center justify-content-center glassmorphism rounded-circle position-absolute"></i>
                             <div class="ms-5">
                                 <h5 class="mb-0" style="font-weight: 600;">Training and Development</h5>
                                 <small>This iswhat i d erh fwerbwo powheprh ieoihwep o This iswhat i d erh fwerbwo powheprh ieoihwep ov This iswhat i d erh fwerbwo powheprh ieoihwep </small>
@@ -203,7 +207,7 @@
                     </div>
                     <div class="col-sm-6 col-lg-4 skills-card mb-md-2 glassmorphism d-flex align-items-center">
                         <div class="d-flex position-relative">
-                            <i class="fa-brands fa-facebook-f d-flex align-items-center justify-content-center glassmorphism rounded-circle position-absolute"></i>
+                            <i class="fa-solid fa-briefcase d-flex align-items-center justify-content-center glassmorphism rounded-circle position-absolute"></i>
                             <div class="ms-5">
                                 <h5 class="mb-0" style="font-weight: 600;">Employability Master class</h5>
                                 <small>This iswhat i d erh fwerbwo powheprh ieoihwep o This iswhat i d erh fwerbwo powheprh ieoihwep ov This iswhat i d erh fwerbwo powheprh ieoihwep </small>
@@ -212,7 +216,7 @@
                     </div>
                     <div class="col-sm-6 col-lg-4 skills-card mb-md-2 glassmorphism d-flex align-items-center">
                         <div class="d-flex position-relative">
-                            <i class="fa-brands fa-facebook-f d-flex align-items-center justify-content-center glassmorphism rounded-circle position-absolute"></i>
+                            <i class="fa-solid fa-file-lines d-flex align-items-center justify-content-center glassmorphism rounded-circle position-absolute"></i>
                             <div class="ms-5">
                                 <h5 class="mb-0" style="font-weight: 600;">Resume/CV Revamp</h5>
                                 <small>This iswhat i d erh fwerbwo powheprh ieoihwep o This iswhat i d erh fwerbwo powheprh ieoihwep ov This iswhat i d erh fwerbwo powheprh ieoihwep </small>
@@ -221,7 +225,7 @@
                     </div>
                     <div class="col-sm-6 col-lg-4 skills-card mb-md-2 glassmorphism d-flex align-items-center">
                         <div class="d-flex position-relative">
-                            <i class="fa-brands fa-facebook-f d-flex align-items-center justify-content-center glassmorphism rounded-circle position-absolute"></i>
+                            <i class="fa-brands fa-linkedin-in d-flex align-items-center justify-content-center glassmorphism rounded-circle position-absolute"></i>
                             <div class="ms-5">
                                 <h5 class="mb-0" style="font-weight: 600;">LinkedIn Optimization</h5>
                                 <small>
@@ -247,7 +251,7 @@
                 </div>
 
                 <!-- Slider Start -->
-                <div class="swiffy-slider slider-item-show2 slider-item-reveal slider-item-ratio slider-nav-round slider-nav-sm slider-nav-autoplay slider-nav-autopause slider-indicators-round slider-indicators-dark slider-indicators-outside slider-indicators-highlight slider-nav-animation slider-indicators-sm slider-nav-animation-appear">
+                <div class="swiffy-slider slider-item-show2 slider-item-reveal slider-item-ratio slider-nav-round slider-nav-sm slider-nav-autoplay slider-nav-autopause slider-indicators-round slider-indicators-dark slider-indicators-outside slider-indicators-highlight slider-nav-animation slider-indicators-sm slider-nav-animation-appear" data-slider-nav-autoplay-interval="4000">
                     <ul class="slider-container mx-0 mx-md-3 mx-lg-5 ">
                         <li class=" glassmorphism">
                             <div class="d-flex align-items-center justify-content-center">
@@ -339,9 +343,9 @@
                             Reach out to <i class="text-success">Adesua</i> via:
                         </h5>
                         <div class="socials my-3  d-flex justify-content-center">
-                            <i class="fa-brands fa-linkedin-in"></i>
-                            <i class="fa-brands fa-facebook-f"></i>
-                            <i class="fa-regular fa-envelope"></i>
+                            <a href="https://www.linkedin.com/in/adesua-iyoyojie-5849b3105" target="_blank" class="fa-brands fa-linkedin-in text-dark"></a>
+                            <a href="https://web.facebook.com/iadesua" target="_blank" class="fa-brands fa-facebook-f text-dark"></a>
+                            <a href="mailto:adesuaomome@gmail.com" target="_blank" class="fa-regular fa-envelope text-dark"></a>
                         </div>
                         <div class="d-flex OR mb-3">
                             OR
@@ -355,7 +359,7 @@
 
                             <div class="mb-3">
                                 <label for="from_email" class="form-label text-dark">Email address</label>
-                                <input type="email" name="from_email" class="form-control p-3 border-0 bg-white" id="from_email" placeholder="hi@adeusa.com"/>
+                                <input type="email" name="from_email" class="form-control p-3 border-0 bg-white" id="from_email" placeholder="hello@adeusa.com"/>
                                 <div class="small text-danger error_message"></div>
                             </div>
                             <div class="mb-3">
@@ -480,22 +484,21 @@
 
         <!--  Footer Start -->
         <footer class="bg-dark">
-            <div class="d-flex align-items-center justify-content-center text-white glassmorphism container position-relative">
+            <div class="text-center pt-5 text-white glassmorphism container position-relative">
                 <div class="position-absolute border border-primary rounded-circle d-flex align-items-center justify-content-center styled-circle overflow-hidden" style="top:-3rem; left: 5rem">
                     <div class="border border-danger rounded-circle"></div>
                 </div>
-                <div class="mx-0 mx-md-3 mx-lg-5">
+                <div class="mx-0 mx-md-3 mx-lg-5 small">
                     Made with <span class="text-danger">❤</span> by <a class="fw-bold text-decoration-none text-white text-decoration-underline" href="#"> 👑KoredeDavid </a>
                 </div>
             </div>
         </footer>
         <!--  Footer End -->
 
-        <script type="application/javascript" src="js/bootstrap.js"></script>
+<!--        <script type="application/javascript" src="js/bootstrap.js"></script>-->
         <script type="application/javascript" src="js/main.js"></script>
         <script type="application/javascript" src="js/scripts.js"></script>
-        <script type="application/javascript" src="js/swiffy-slider.js"></script>
-        <!--        <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.5.3/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>-->
+        <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.5.3/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
 
     </body>
 </html>

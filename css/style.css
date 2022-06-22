@@ -76,7 +76,7 @@ nav{
     display: flex;
 }
 
-.socials i{
+.socials a{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -344,7 +344,6 @@ nav{
     left: 0;
     padding: 25px 15px 15px;
     width: 100%;
-    font-family: "Raleway", sans-serif;
     font-size: 16px;
     color: white;
     opacity: 0;
