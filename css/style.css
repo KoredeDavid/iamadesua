@@ -2,6 +2,10 @@
     font-family: "Cormorant", serif;
 }
 
+html{
+    scroll-behavior: smooth
+}
+
 @media (max-width: 767px) {
     .container-sm, .container {
         max-width: 700px;
@@ -18,8 +22,14 @@ nav{
 
 .glassmorphism{
     background: rgba( 255, 255, 255, 0.5 );
-    backdrop-filter: blur( 1.5px );
     -webkit-backdrop-filter: blur( 1.5px );
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0)
+    backdrop-filter: blur( 1.5px );
+    backface-visibility: hidden;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0)
 }
 
 
@@ -160,7 +170,7 @@ nav{
 }
 
 .rotate-360-left{
-    animation: rotate-360-left 35s linear infinite;
+    animation: rotate-360-left 20s linear infinite;
 }
 
 @keyframes rotate-360-left {
@@ -170,7 +180,7 @@ nav{
 }
 
 .rotate-360-right{
-    animation: rotate-360-right 35s linear infinite;
+    animation: rotate-360-right 20s linear infinite;
 }
 
 @keyframes rotate-360-right {
@@ -180,7 +190,7 @@ nav{
 }
 
 .rotate-speed-double{
-    animation-duration: 17.5s;
+    animation-duration: 10s;
 }
 
 .fa-arrow-down-long{
@@ -258,7 +268,6 @@ nav{
 .slider-container > *{
     height: 220px;
     margin-bottom: 0.5rem;
-    /*border-radius: 2rem;*/
     transition: all 0.3s ease-in-out;
     overflow: hidden;
 }
@@ -353,8 +362,5 @@ nav{
 
 /* End Gallery Section */
 
-/* Start Footer Section */
 
-
-/* End Footer Section */
 
